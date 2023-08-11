@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyADU3bOiJGUeUU2_OHylHLwnM-Djo1UQGM"
+        }
+      },
+      "package": "com.miguelcr.maps"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48f2d4e8-86c8-44a8-8189-22bb20386587"
+      }
     }
   }
 }
